@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    background: black;
+    width:100%;
+    height:60px;
+    h1{
+        padding-top:10px;
+        color:white;
+    }
+}
+.container{
+    width: 100%;
+    align-items: center;
+    
+
+}
+.informations{
+    margin-left:30%;
+    background:black;
+    width: 400px;
+    margin-top: 50px;
+    border: solid 2px black;
+    text-align: center;
+    span{
+        color:red;
+        background-color: black;
+        font-size: 3rem;
+    }
+
+}
+
+.buttons{
+    margin-left:30%;
+    text-align: center;
+    width:400px;
+    border: 2px solid black;
+    #iniciar, #pause, #resetar{
+        background: black;
+        height: 60px;
+        width: 100px;
+        color:white;
+        font-size: 1.5rem;
+    }
+}
+
+footer{
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color:white;
+}
+
